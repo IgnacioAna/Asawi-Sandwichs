@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    Background: black;
+}
+
+
+.imagenHeader {
+    background-image: url("../images/white_logo_dark_background.jpg");
+    background-color: black;
+    height: 600px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN INICIO INDEX*/
+}
+
+
+.navegador {
+    text-align: center;
+    background-color: red;
+    color: black;
+    height: 200px;
+    font-size: 100%;
+    /*MENU*/
+}
+
+.navegador_link {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px dotted black
+    /*ICONOS MENU*/
+}
+
+
+.classh1 {
+    font-size: 50px;
+    padding-top: 4rem;
+    background-color: red;
+    color: rgb(24, 20, 20);
+    text-decoration: overline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*TITULO PRINCIPAL*/
+}
+
+.imagenMain {
+    align-items: left;
+    width:  30%;
+    float: left;
+    height: 840px;
+    background-position: left left;
+    /*IMAGENES MAIN*/
+}
+
+.imagenMain1 {
+    align-items: center;
+    width:  40%;
+    float: center;
+    height: 30%;
+    background-position: center center;
+    /*IMAGENES MAIN*/
+}
+
+.imagenMain2 {
+    align-items: right;
+    width:  30%;
+    float: right;
+    height: 840px;
+    background-position: right right;
+    /*IMAGENES MAIN*/
+
+}
+
+
+.footer {
+    text-align: center;
+    background-color:black;
+    align-items: center center;
+    padding-top: 20px;
+    height: 100%;
+    color: white;
+    float: inline-end;
+    /*PIE DE PAGINA*/
+}
+
+.redes {
+    border-radius: 20px;
+    padding: 20px;
+    height: 65px;
+    /*IMAGEN FB*/
+}
+
+.redes1 {
+    border-radius: 45px;
+    padding: 10px;
+    height: 80px;
+    /*IMAGEN INSTA*/
+}
+
+.redes2 {
+    padding: 20px;
+    height: 60px;
+    /*IMAGEN TW*/
+}
+
+
+
+
+

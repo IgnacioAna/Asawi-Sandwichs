@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+
+.headInicio {
+    background-image: url("../images/white_logo_dark_background.jpg");
+    background-color: black;
+    height: 600px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN HEAD INDEX*/
+}
+
+.headQS {
+    background-image: url("../images/quienessomos.jpg");
+    background-color: black;
+    height: 600px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN HEAD QUIENES SOMOS*/
+}
+
+
+.headSandwich {
+    background-image: url("../images/Logo\ menu.jpg");
+    background-color: black;
+    height: 600px;
+    width: 60%;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN HEAD SANDWICHS*/
+}
+
+.headHorario {
+    background-image: url("../images/Logo\ horarios\ y\ atencion.jpg");
+    background-color: black;
+    height: 600px;
+    width: 60%;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN HEAD HORARIOS*/
+}
+
+.headContacto {
+    background-image: url("../images/contactoo.jpg");
+    background-color: black;
+    height: 550px;
+    width: 65%;
+    padding-top: 110px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: auto;
+    /* IMAGEN HEAD CONTACTO*/
+}
+
+.ul {
+    width: 100%;
+    /*ANCHO NAV*/
+}
+
+.navegador {
+    text-align: center;
+    background-color: red;
+    color: black;
+    height: 200px;
+    font-size: 100%;
+    /*MENU*/
+}
+
+.navegador_link {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px dotted black
+    /*ICONOS MENU*/
+}
+
+
+.classh1 {
+    font-size: 50px;
+    padding-top: 4rem;
+    background-color: red;
+    color: rgb(24, 20, 20);
+    text-decoration: overline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*TITULO PRINCIPAL*/
+}
+
+.imagen_inicio {
+    align-items: left;
+    width:  30%;
+    float: left;
+    height: 800px;
+    background-position: left left;
+    /*IMAGENES MAIN*/
+}
+
+.imagen_inicio1 {
+    align-items: center;
+    width:  40%;
+    float: center;
+    height: 800px;
+    background-position: center center;
+    /*IMAGENES MAIN*/
+}
+
+.imagen_inicio2 {
+    align-items: right;
+    width:  30%;
+    float: right;
+    height: 800px;
+    background-position: right right;
+    /*IMAGENES MAIN*/
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1000px;
+    height: 750px;
+    margin: auto;
+    padding: 60px;
+    background: black;
+    margin-top: 100px;
+    border: 6px solid red;
+    /*DIV QUIENES SOMOS*/
+}
+
+
+.conteiner img {
+    border-radius: 5px;
+    padding-top: 20px;
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 50px;
+    /*IMAGEN MAIN QUIENES SOMOS*/
+}
+
+
+.conteiner p {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /*TEXTO QUIENES SOMOS Y HORARIOS*/
+}
+
+.conteiner ul {
+    font-size: 25px;
+    padding-left: 50px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /*TEXTO QUIENES SOMOS*/
+}
+
+.imagen_logodiv {
+    position: relative;
+    bottom: 250px;
+    padding-bottom: 5px;
+    left: 500px;
+    width: 50px;
+    height: 10px;
+    background-position: right right;
+    /*LOGO BODY QUIENES SOMOS Y HORARIOS*/
+}
+
+.imagen_sandwich {
+    align-items: left;
+    width:  30%;
+    float: left;
+    height: 1000px;
+    background-position: left left;
+    /*IMAGENES SANDWICHS*/
+}
+
+.imagen_sandwich1 {
+    align-items: center;
+    width:  40%;
+    float: center;
+    height: 1000px;
+    background-position: center center;
+    /*IMAGENES SANDWICHS*/
+}
+
+.imagen_sandwich2 {
+    align-items: right;
+    width:  30%;
+    float: right;
+    height: 1000px;
+    background-position: right right;
+    /*IMAGENES SANDWICHS*/
+
+}
+
+.ingredientes {
+    text-align: left;
+    color: white;
+    align-items: left;
+    position: absolute;
+    top: 1100px;
+    left: 40px;
+    display: inline-block;
+    background-position: left left;
+    /*INGREDIENTES BRIE*/
+}
+
+.ingredientes1 {
+    color: white;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    top: 1100px;
+    bottom: 10px;
+    left: 600px;
+    right: 700px;
+    background-position: center center;
+    /*INGREDIENTES BON*/
+}
+
+.ingredientes2 {
+    color:white;
+    align-items: right;
+    position: absolute;
+    top: 1100px;
+    right: 150px;
+    display: inline-block;
+    background-position: right right;
+    /*INGREDIENTES VEGGIE*/
+}
+
+.formulario {
+    padding-top: 40px;
+    align-items: center;
+    color: white;
+    background-position: center center;
+    text-decoration: white;
+    position: absolute;
+    left: 750px;
+    font-size: 20px;
+    width: 800px;
+    height: 100%;
+    /*FORMULARIO CONTACTO*/
+}
+
+.imagenContacto {
+    width: 100%;
+    height: 1000px;
+    /*IMAGEN BODY CONTACTO*/
+}
+
+.imagenFinal {
+    padding-top: 40px;
+    position: relative;
+    left: 640px;
+    width: 400px;
+    height: 300px;
+    background-position: center center;
+    /*LOGO FINAL BODY*/
+}
+
+.imagenFinal1 {
+    padding-top: 40px;
+    position: relative;
+    bottom: 300px;
+    left: 640px;
+    width: 400px;
+    height: 300px;
+    background-position: center center;
+    /*LOGO FINAL BODY*/
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    align-items: center center;
+    padding-top: 10px;
+    height: 100%;
+    color: white;
+    float: center;
+    /*PIE DE PAGINA*/
+}
+
+.footerQS {
+    text-align: center;
+    background-color: black;
+    align-items: center center;
+    padding-top: 10px;
+    margin-bottom: auto;
+    height: 10px;
+    color: white;
+    position: absolute;
+    left: 650px;
+    margin: auto;
+    /*PIE DE PAGINA QUIENES SOMOS Y HORARIOS*/
+}
+
+.redes {
+    border-radius: 20px;
+    padding: 20px;
+    height: 65px;
+    /*IMAGEN FB*/
+}
+
+.redes1 {
+    border-radius: 45px;
+    padding: 10px;
+    height: 80px;
+    /*IMAGEN INSTA*/
+}
+
+.redes2 {
+    padding: 20px;
+    height: 60px;
+    /*IMAGEN TW*/
+}
+
+
+
+
+
